@@ -58,8 +58,8 @@ def main():
             TEXT += f"\n⏱ <b>LAST UPDATE :</b>\n\n🌎 UTC : {str(utc_now)}\n🇲🇦 MA : {str(ma_now)}"
 
             Alty.edit_message_text(UPDATE_CHANNEL, STATUS_MESSAGE_ID, text=TEXT, disable_web_page_preview=True, parse_mode="html")
-            print(f"[INFO] Everything Done! Sleeping For {round(15 / 60)} Hours...")
-            time.sleep(15 * 60)
+            print(f"[INFO] Everything Done! Sleeping For {round(TIME / 60)} Hours...")
+            time.sleep(TIME * 60)
 
 
 main()
