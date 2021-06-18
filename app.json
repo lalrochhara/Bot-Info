@@ -1,7 +1,7 @@
 {
-  "name": "Bot-Status",
+  "name": "Bot Info Streamer",
   "description": "A user bot for stat telegram bots online status",
-  "repository": "https://github.com/AmineSoukara/BotStatus/tree/Pyrogram",
+  "repository": "https://github.com/RSR-TG-Info/Bot-Info",
   "keywords": ["telegram", "bot status", "user bot"],
   "env": {
     "API_ID": {
