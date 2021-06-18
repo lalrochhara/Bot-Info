@@ -1,4 +1,4 @@
-# (C) @DamienSoukara 
+# ©️RSR
 
 import os
 import time
